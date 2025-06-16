@@ -12,6 +12,7 @@ export function SiteHeader() {
       "/tasks": "Tarefas",
       "/task-new": "Nova Tarefa",
       "/task-edit": "Editar Tarefa",
+      "/users": "Usuários",
     };
 
     return routeTitles[location.pathname] || "Documents";
